@@ -1,5 +1,5 @@
 # Conversor de Moneda
-:en desarrollo:
+
 
 Proyecto Java para ONE Alura Latam. El aplicativo solicita al usuario el tipo de conversión que desea realizar y el monto que desea cambiar.
 El aplicativo devuelve el monto en la moneda solicitada.
