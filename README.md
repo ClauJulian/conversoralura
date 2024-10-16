@@ -14,10 +14,12 @@ El aplicativo devuelve el monto en la moneda solicitada.
 Como base en la POO, el trabajo se realizó con clases, funciones y bucles que convergen en la clase principal Main que es la que solicita y muestra los resultados del aplicativo.
 
 ## ** Instalación del proyecto Conveso Alura **
-🔑 Crea una carpeta en tu entorno local
-🔑 En la terminal deslízate hacia la carpeta y clona el proyecto "Conversor Alura":
+<ul>
+<li>🔑 Crea una carpeta en tu entorno local</li>
+<li>🔑 En la terminal deslízate hacia la carpeta y clona el proyecto "Conversor Alura":</li>
         https://github.com/ClauJulian/conversoralura.git
-🔑 Instala en tu entorno local Java, IntelliJ, Gson
+<li>🔑 Instala en tu entorno local Java, IntelliJ, Gson</li>
+</ul>
 
 
 ## ** Desarrolador ** 
