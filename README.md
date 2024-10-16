@@ -1,14 +1,18 @@
 # Conversor de Moneda
 
 
-🚀  Proyecto Java para ONE Alura Latam. El aplicativo solicita al usuario el tipo de conversión que desea realizar y el monto que desea cambiar.
+<p style="align:center">💰💰💰💰💰💰💰💰💰💰💰💰</p>
+Proyecto Java para ONE Alura Latam. El aplicativo solicita al usuario el tipo de conversión que desea realizar y el monto que desea cambiar.
 El aplicativo devuelve el monto en la moneda solicitada. 
+<p style="align:center">💰💰💰💰💰💰💰💰💰💰💰💰</p>
 
 ## ** Herramientas **
-   🔧 Lenguaje de Programación: Java (versión 22)
-   🔧 Entorno de Desarrollo: IntelliJ
-   🔧 API: ExchangeRate
-   🔧 Manejo de Json: Gson 
+<ul>
+<li>   🔧 Lenguaje de Programación: Java (versión 22) </li>
+<li>   🔧 Entorno de Desarrollo: IntelliJ </li>
+<li>   🔧 API: ExchangeRate </li>
+<li>   🔧 Manejo de Json: Gson </li>
+</ul>
 
 ## ** Metodología **
 Como base en la POO, el trabajo se realizó con clases, funciones y bucles que convergen en la clase principal Main que es la que solicita y muestra los resultados del aplicativo.
