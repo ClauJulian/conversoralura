@@ -1,10 +1,12 @@
 # Conversor de Moneda
 
 
-<p style="align:center">💰💰💰💰💰💰💰💰💰💰💰💰</p>
-Proyecto Java para ONE Alura Latam. El aplicativo solicita al usuario el tipo de conversión que desea realizar y el monto que desea cambiar.
-El aplicativo devuelve el monto en la moneda solicitada. 
-<p style="align:center">💰💰💰💰💰💰💰💰💰💰💰💰</p>
+<h3 >💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰</h3>
+
+Proyecto Java para ONE Alura Latam. El aplicativo permite al usuario convertir un monto de moneda original a una nueva moneda seleccionada por el usuario.
+Esta conversión se realiza en tiempo real con tipos de cambio actualizada a cada hora lo que le asegura al usuario la validez del tipo de cambio utilizado.
+
+<h3 >💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰💰</h3>
 
 ## ** Herramientas **
 <ul>
