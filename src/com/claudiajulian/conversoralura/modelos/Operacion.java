@@ -10,7 +10,8 @@ public class Operacion {
 
     public String calculaMontoFinal(String origen_code, String final_code, double monto_ingresado, double final_value){
         double montoFinal = monto_ingresado * final_value;
-        String mensaje = monto_ingresado + " " + origen_code + " equivalen a " + montoFinal + " " + final_code;
+        String montoFormateado = String.format("%.2f",montoFinal);
+        String mensaje = monto_ingresado + " " + origen_code + " equivalen a " + montoFormateado + " " + final_code;
         return mensaje;
     }
 
