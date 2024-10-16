@@ -9,24 +9,27 @@ import java.net.http.HttpResponse;
 
 public class ConsultaMoneda {
 
-    URI direccion = URI.create("https://v6.exchangerate-api.com/v6/622abbbbfad52f40bd2b40a1/latest/");
 
     public Coin buscaMoneda(String base_code){
-        URI direccion = URI.create("https://v6.exchangerate-api.com/v6/622abbbbfad52f40bd2b40a1/latest/" + base_code);
 
+        String URL_BASE = "https://v6.exchangerate-api.com/v6/";
+        String API_KEY = "622abbbbfad52f40bd2b40a1/";
+        String PARAM_1 = "latest/";
+
+        URI direccion = URI.create(URL_BASE + API_KEY + PARAM_1 + base_code);
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(direccion)
                 .build();
-
         HttpResponse<String> response = null;
+
+
         try {
             response = client
                     .send(request, HttpResponse.BodyHandlers.ofString());
-        } catch (IOException |InterruptedException e) {
+        } catch (IOException | InterruptedException e) {
             throw new RuntimeException(e);
         }
-
         return new Gson().fromJson(response.body(), Coin.class);
     }
 }
